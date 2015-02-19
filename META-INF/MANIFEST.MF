@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.casualintellect.editor.tests
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.casualintellect.editor.tests; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.casualintellect.editor,
+ org.casualintellect.editor.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.xtext.junit4,
+ org.eclipse.ui.workbench;resolution:=optional,
+ org.objectweb.asm;bundle-version="[5.0.1,6.0.0)";resolution:=optional,
+ org.eclipse.xtext.xbase.junit;bundle-version="2.6.2",
+ org.eclipse.jdt.junit;bundle-version="3.7.300",
+ org.eclipse.jdt.junit.runtime;bundle-version="3.4.500",
+ org.eclipse.jdt.core;bundle-version="3.10.0"
+Import-Package: org.apache.log4j,
+ org.junit;version="4.5.0",
+ org.junit.runner;version="4.5.0",
+ org.junit.runner.manipulation;version="4.5.0",
+ org.junit.runner.notification;version="4.5.0",
+ org.junit.runners;version="4.5.0",
+ org.junit.runners.model;version="4.5.0",
+ org.hamcrest.core
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.casualintellect
